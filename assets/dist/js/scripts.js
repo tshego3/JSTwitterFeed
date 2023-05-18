@@ -51,7 +51,7 @@ $.ajax({
             }
             
             $('#feeds').append(
-                (item.id == 7 || item.id == 8 || item.id == 9 || item.id == 10 ?
+                (item.id == 7 || item.id == 8 || item.id == 9 || item.id == 10 || item.id == 11 ?
                     '<li class=\"nav-item dropdown\">' +
                         '<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">' +
                             item.title +
