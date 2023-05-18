@@ -41,7 +41,7 @@ $.ajax({
     dataType: 'json',
     success: function(json){
         $.each(json, function (i, item) {
-            if (item.id == 3|| item.id == 4 || item.id == 6) {
+            if (item.id == 7 || item.id == 8 || item.id == 9 || item.id == 10 || item.id == 11) {
                 $.each(item.categories, function (ii, category) {
                     twitterFeeds.push(new TwitterFeedModel(category.id, category.title, category.url));
                 });
