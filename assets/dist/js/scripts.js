@@ -72,7 +72,7 @@ $.ajax({
 
         if (twitterFeed != null) {
             $('#feed').append(
-                '<a class=\"twitter-timeline\" data-theme=\"dark\" href=\"'+ twitterFeed.url +'?ref_src=twsrc%5Etfw\">'+ twitterFeed.title +'</a>' +
+                '<a class=\"twitter-timeline\" data-theme=\"dark\" href=\"'+ twitterFeed.url +'?ref_src=twsrc%5Etfw\"></a>' +
                 '<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>'
             );
         }
