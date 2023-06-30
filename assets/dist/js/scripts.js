@@ -41,7 +41,7 @@ $.ajax({
     dataType: 'json',
     success: function(json){
         $.each(json, function (i, item) {
-            if (item.id == 7 || item.id == 8 || item.id == 9 || item.id == 10 || item.id == 11) {
+            if (item.id == 7 || item.id == 8 || item.id == 9 || item.id == 10 || item.id == 11 || item.id == 12) {
                 $.each(item.categories, function (ii, category) {
                     twitterFeeds.push(new TwitterFeedModel(category.id, category.title, category.url));
                 });
@@ -51,7 +51,7 @@ $.ajax({
             }
             
             $('#feeds').append(
-                (item.id == 7 || item.id == 8 || item.id == 9 || item.id == 10 || item.id == 11 ?
+                (item.id == 7 || item.id == 8 || item.id == 9 || item.id == 10 || item.id == 11 || item.id == 12 ?
                     '<li class=\"nav-item dropdown\">' +
                         '<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">' +
                             item.title +
